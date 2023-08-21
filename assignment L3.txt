@@ -1,0 +1,152 @@
+// assignment L3
+// QUESTION 1
+// int a,b;
+// cin>>a>>b;
+
+// if(a>b){
+//     cout<<"greatest number is "<<a<<endl;
+// } else {
+//     cout<<"greatest number is "<<b<<endl;
+// }
+// output: 2 3
+// greatest number is 3
+// QUESTION 2
+
+//     int radius;
+//     cout << "Enter the radius of the circle: ";
+//     cin >> radius;
+
+//     float circumference = 2 * 3.14 * radius;
+//     float  area = 3.14 * radius * radius;
+
+//     if (area > circumference) {
+//         cout << "The area of the circle is larger than the circumference." << endl;
+//     } else if (area < circumference) {
+//         cout << "The circumference of the circle is larger than the area." << endl;
+//     } else {
+//         cout << "The area and circumference are equal." << endl;
+//     }
+//     output:Enter the radius of the circle: 8
+// The area of the circle is larger than the circumference.
+// QUESTION 3
+
+//     int year;
+//     cout << "Enter a year: ";
+//     cin >> year;
+
+//     if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
+//         cout << year << " is a leap year." << endl;
+//     } else {
+//         cout << year << " is not a leap year." << endl;
+//     }
+// output:Enter a year: 2022
+// 2022 is not a leap year.
+
+// question 4
+
+//     int length, breadth;
+//     cout << "Enter the length of the rectangle: ";
+//     cin >> length;
+//     cout << "Enter the breadth of the rectangle: ";
+//     cin >> breadth;
+
+//     int area = length * breadth;
+//     int perimeter = 2 * (length + breadth);
+
+//     if (area > perimeter) {
+//         cout << "The area of the rectangle is greater than its perimeter." << endl;
+//     } else if (area < perimeter) {
+//         cout << "The perimeter of the rectangle is greater than its area." << endl;
+//     } else {
+//         cout << "The area and perimeter are equal." << endl;
+//     }
+//     output:Enter the length of the rectangle: 6      
+// Enter the breadth of the rectangle: 3     
+// The area and perimeter are equal.
+// QUESTION 5
+
+//     int side1, side2, side3;
+//     cout << "Enter the lengths of the three sides of the triangle: ";
+//     cin >> side1 >> side2 >> side3;
+
+//     if (side1 == side2 && side2 == side3) {
+//         cout << "It's an equilateral triangle." << endl;
+//     } else if (side1 == side2 || side2 == side3 || side1 == side3) {
+//         cout << "It's an isosceles triangle." << endl;
+//     } else {
+//         cout << "It's a scalene triangle." << endl;
+//     }
+// output:Enter the lengths of the three sides of the triangle: 3 3 3
+// It's an equilateral triangle.
+    // QUESTION 6
+//     int marksA, marksB, marksC;
+//     cout << "Enter the marks of student A: ";
+//     cin >> marksA;
+//     cout << "Enter the marks of student B: ";
+//     cin >> marksB;
+//     cout << "Enter the marks of student C: ";
+//     cin >> marksC;
+
+//     if (marksA <= marksB && marksA <= marksC) {
+//         cout << "Student A scored the least marks." << endl;
+//     } else if (marksB <= marksA && marksB <= marksC) {
+//         cout << "Student B scored the least marks." << endl;
+//     } else {
+//         cout << "Student C scored the least marks." << endl;
+//     }
+
+//     output:
+//     Enter the marks of student A: 48
+// Enter the marks of student B: 47
+// Enter the marks of student C: 49
+// Student B scored the least marks.
+// question 7
+
+
+//     int x, y;
+//     cout << "Enter the x-coordinate: ";
+//     cin >> x;
+//     cout << "Enter the y-coordinate: ";
+//     cin >> y;
+
+//     if (x == 0 && y == 0) {
+//         cout << "The point is at the origin (0, 0)." << endl;
+//     } else if (x == 0) {
+//         cout << "The point lies on the y-axis." << endl;
+//     } else if (y == 0) {
+//         cout << "The point lies on the x-axis." << endl;
+//     } else {
+//         cout << "The point does not lie on any axis." << endl;
+//     }
+// output:Enter the x-coordinate: 0
+// Enter the y-coordinate: 3
+// The point lies on the y-axis.
+// question 9
+
+//     char ch;
+//     cout << "Enter a character: ";
+//     cin >> ch;
+
+//     if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')) {
+//         cout << "The character is an alphabet." << endl;
+//     } else if (ch >= '0' && ch <= '9') {
+//         cout << "The character is a digit." << endl;
+//     } else {
+//         cout << "The character is a special character." << endl;
+//     }
+//     // output
+//     Enter a character: a
+// The character is an alphabet.
+// PS C:\Users\laxmikanth\project1\basics> ./
+// variables
+// Enter a character: 4
+// The character is a digit.
+
+// question 10
+//     int a = 500, b, c ; 
+// if ( a >= 400 ) 
+// b = 300 ; 
+// c = 200 ; 
+// cout << "value of b and c are respectively" <<b<<" and " <<c;
+// output:
+// value of b and c are respectively300 and 200
